@@ -9,13 +9,18 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
 	<style>
-		#all {
-			width: 900px;
+		.all {
+			box-shadow: 0px 0px 10px #222;
+		    padding: 5px;
+		    border-radius: 5px;
+		    margin-bottom: 5px;
+
 		}
 		.bar {
 			background: #515151;
 			padding: 14px 14px;
-			border-radius: 5px;
+			border-radius: 1px;
+			background-color: #222222;
 		}
 		.nameplace {
 			color: #fff;
@@ -40,10 +45,13 @@
 		}
 		.information {
 			float: left;
-			margin-top: 16px; 
-			margin-left: 53px;
-			width: 200px;
-			color: #fff;
+		    margin-top: 12px;
+		    margin-left: 35px;
+		    width: 200px;
+		    color: #fff;
+		    background-color: #515151;
+		    padding: 4px;
+		    border-radius: 0px 0 59px 0;
 		}
 		.githubicon {
 			display: inline-block;
@@ -68,10 +76,26 @@
 		}
 		.main-des h4 {
 			margin-left: 20px;
-			line-height: 128%;
+			line-height: 136%;
 		}
 		.main-des .label {
 			color: #3B3434;
+		}
+		.main-des img {
+			width: 300px;
+		}
+		#id-img-R {
+			float: right;
+		    margin: 156px -5px;
+		}
+		.link {
+			text-align: right;
+		}
+		#id-span-footer {
+			float: left;
+			margin-left: 22px;
+		    color: #222222;
+		    margin-top: -9px;
 		}
 	</style>
 
@@ -84,10 +108,9 @@
 	<div class="bar">
 		<div class="information ">
 			<span class="glyphicon glyphicon-earphone"></span>&nbsp;13129327896<br>
-			
 			<span class="glyphicon glyphicon-envelope"></span>&nbsp;runquanLi@outlook.com<br>
 			<div class="githubicon"></div><div id='githerf'>https://github.com/Armrun</div><br>
-			<span class="glyphicon glyphicon-globe"></span>&nbsp;www.skyroom.com<br>
+			<span class="glyphicon glyphicon-bold"></span>&nbsp;www.skyroom.club<br>
 		</div>
 		<div class="nameplace">
 			<span class="myname">李润全</span><br>
@@ -105,6 +128,7 @@
 		  		<div class="page-header">
   					<h1>教育经历 <small>2014 ~ 2018</small></h1>
 				</div>
+
 				<h3>昆明理工大学 <span class="label label-primary">电气工程及其自动化(本科)</span></h3>
 				<div class='main-des'>
 					<h4>2015 ~ 2016 学年度 <span class="label label-info">校二等奖学金</span></h4>
@@ -117,23 +141,131 @@
   					<h1>项目经验 <small>Experiences</small></h1>
 				</div>
   					
-  				<h3>ArmPlayer 音乐播放器 <small><span class="label label-primary ">源代码</span></small></h3>
+  				<h3><span class="glyphicon glyphicon-align-left"></span>ArmPlayer 音乐播放器 <small><button type="button" class="btn btn-primary btn-xs">源代码</button></small></h3>
 				<div class='main-des'>
-					<span class="glyphicon glyphicon-align-left"></span><h4>界面美观的<span class="label label-info">HTML5</span>音乐播放器支持歌词、播放列表、播放模式（循环播放、随机播放等）<span class="label label-info">兼容现代浏览器和移动端</span></h4>
+					<h4><span class="glyphicon glyphicon-expand"></span>界面美观的<span class="label label-info">HTML5音乐播放器</span>，支持皮肤更换、快捷键音量调节、播放时间显示，<span class="label label-info">兼容现代浏览器和移动端</span></h4>
+					<h4><span class="glyphicon glyphicon-expand"></span>原生 js 编写，无任何依赖，播放进度条效果由<span class="label label-info">css3</span>的特性实现。</h4>
+					<div>
+						<img src="img/player.png" alt="">
+					</div>
+				</div>
 
-					<span class="glyphicon glyphicon-align-left"></span><h4>原生 js 编写，无任何依赖，使用<span class="label label-info">webpack</span>和<span class="label label-info">sass</span>构建</h4>
+				<h3><span class="glyphicon glyphicon-align-left"></span>Skyroom 个人博客 <small><button type="button" class="btn btn-primary btn-xs">访问 skyroom.club</button> <button type="button" class="btn btn-primary btn-xs">源代码</button></small></h3>
+				<div class='main-des'>
+					<h4><span class="glyphicon glyphicon-expand"></span>好看的界面，支持博主在线添加论文，游客评论、点赞功能。</h4>
 
+					<h4><span class="glyphicon glyphicon-expand"></span>独立开发的个人网站，实现了 UI 和 数据交互，博客的后端基于<span class="label label-info">Nodejs</span>下的<span class="label label-info">Express</span>框架进行后端 API 的开发并封装。使用 Express中间件<span class="label label-info">Static</span>让用户访问网站中的静态文件。</h4>
+
+					<h4><span class="glyphicon glyphicon-expand"></span>前端页面基于<span class="label label-info">Bootstrap</span>进行页面架构设计和布局，支持<span class="label label-info">响应式</span>布局，具备跨浏览器、跨设备兼容性。使用<span class="label label-info">Sass</span>对CSS预处理。</h4>
+
+					<div>
+						<img src="img/player.png" alt="">
+					</div>
 				</div> 
 
+				<h3><span class="glyphicon glyphicon-align-left"></span>拉钩数据爬虫 <small><button type="button" class="btn btn-primary btn-xs">源代码</button></small></h3>
+				<div class='main-des'>
+					<h4><span class="glyphicon glyphicon-expand"></span>基于<span class="label label-info">Nodejs</span>，可以自由指定职位信息来快速得到所有相关职位数据的爬虫脚本。用<span class="label label-info">sync-request</span>解决了<span class="label label-info">异步</span>请求页面的遇到的问题。通过实现随机生成<span class="label label-info">HTTP</span>请求 Header  和 监视请求失败并自行重试的功能， 解决了拉钩反爬虫机制的问题。</h4>
+
+					<h4><span class="glyphicon glyphicon-expand"></span>对数据进行可视化分析，数据可视化中运用<span class="label label-info">cheerio</span>模块实现了数据批量导出和<span class="label label-info">HTML</span>渲染， 使爬取数据的查看变得更加直观。</h4>
+
+					<h4><span class="glyphicon glyphicon-expand"></span>编写针对垃圾信息的处理函数，解决了爬取数据的过滤。实现自动补全信息函数，解决部分信息残缺的问题。</h4>
+
+				</div>
+
+				<h3><span class="glyphicon glyphicon-align-left"></span>Arm便签 <small><button type="button" class="btn btn-primary btn-xs">源代码</button></small></h3>
+				<div class='main-des'>
+					<h4><span class="glyphicon glyphicon-expand"></span>简洁易用的web便签应用，由<span class="label label-info">原生js</span>开发，无需任何js依赖库。</h4>
+
+					<h4><span class="glyphicon glyphicon-expand"></span>通过HTML5的<span class="label label-info">localStorage</span>方法实现在客户端的数据离线存储。</h4>
+
+					<div>
+						<img src="img/player.png" alt="">
+					</div>
+				</div>
+
+				<h3><span class="glyphicon glyphicon-align-left"></span>Resume <small><button type="button" class="btn btn-primary btn-xs">源代码</button></small></h3>
+				<div class='main-des'>
+					<h4><span class="glyphicon glyphicon-expand"></span>设计简约，内容完善的静态简历页面，基于<span class="label label-info">Bootstrap</span>来进行设计和布局，<span class="label label-info">响应式</span>设计，是本简历的源码。</h4>
+
+					<h4><span class="glyphicon glyphicon-expand"></span>使用<span class="label label-info">Sass</span>进行 css 预处理。</h4>
+				</div>     
+
 		  </div>
-		  <div class="col-md-6">.col-md-1</div>
+		<div class="col-md-6">
+			<div class="page-header">
+  				<h1>技能 <small>Skills</small></h1>
+			</div>
+			<h3><span class="glyphicon glyphicon-align-left"></span>Web前端</h3>
+			<h3><span class="label label-primary">HTML / CSS</span></h3>
+			<div class='main-des'>
+				<h4><span class="glyphicon glyphicon-star"></span>能编写语义化的HTML，模块化的CSS，能够使用DIV+CSS实现较复杂的布局和动画</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>熟悉已经标准化的HTML5/CSS3新特性</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>了解响应式设计原理</h4>
+			</div>
+
+			<h3><span class="label label-primary">ECMAScript (JavaScript)</span></h3>
+			<div class='main-des'>
+				<h4><span class="glyphicon glyphicon-star"></span>熟悉ECMAScript(JavaScript)， 熟悉ES6标准与相关后处理工具，并能在项目中使用</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>熟练使用原生JavaScript，能脱离 jQuery 等类库编写工具，熟悉面向对象、闭包、继承等知识</h4>
+			</div>
+			
+			<h3><span class="label label-primary">DOM / BOM / Web API</span></h3>
+			<div class='main-des'>
+				<h4><span class="glyphicon glyphicon-star"></span>熟悉原生DOM与BOM的使用及相关W3C标准，用原生代码实现过轮播图， 标签导航栏等组件</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>熟悉事件处理机制，理解事件绑定，委托原理</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>了解HTTP协议、JSON格式，熟悉Ajax的使用，对SPA开发有基本认识</h4>
+			</div>
+				
+			<h3><span class="label label-primary">前端框架</span></h3>
+			<div class='main-des'>
+				<h4><span class="glyphicon glyphicon-star"></span>能够在项目中熟练使用jQuery，Bootstrap</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>在项目中使用过Sass预处理工具，和WebPack构建工具</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>对MVVM框架中的Vuejs有基本认识</h4>
+			</div>
+			
+			<h3><span class="glyphicon glyphicon-align-left"></span>Web后端</h3>
+				<h3><span class="label label-primary">Node.js</span></h3>
+			<div class='main-des'>
+				<h4><span class="glyphicon glyphicon-star"></span>了解Node.js的开发，使用过Express搭建简单的后端程序</h4>
+				<h4><span class="glyphicon glyphicon-star"></span>使用Node.js开发过爬虫程序</h4>
+			</div>
+			
+			<div class="page-header">
+  					<h1>其他</h1>
+			</div>
+				<div class='main-des'>
+					<h4><span class="glyphicon glyphicon-star"></span>重视代码规范，注重代码的整洁、可维护性</h4>
+					<h4><span class="glyphicon glyphicon-star"></span>熟悉Python，能开发简单的Python自动化脚本，爬虫</h4>
+					<h4><span class="glyphicon glyphicon-star"></span>日常使用Git与Sublime Text进行开发</h4>
+					<h4><span class="glyphicon glyphicon-star"></span>计算机硬件DIY爱好者</h4>
+
+					<div class="row">
+						<img id="id-img-R" src="img/R.png" alt="">
+					</div>
+					<div class="row link">
+						<h3><i>相关链接</i> <span class="glyphicon glyphicon-globe"></span></h3>
+
+						<h4> <span class="label label-info">https://skyroom.club/runresume</span> 本简历在线地址<span class="glyphicon glyphicon-star"></span></h4>
+
+						<h4><span class="label label-info">https://github.com/Armrun</span> GitHub<span class="glyphicon glyphicon-star"></span></h4>
+
+						<h4><span class="label label-info">https://skyroom.club</span> Blog<span class="glyphicon glyphicon-star"></span></h4>
+					</div>
+				</div>
 		</div>
+		</div>
+		<!-- footer begin -->
+		
+		<div class="row" >
+			<hr>
+			<span id='id-span-footer'><i>theme by RunquanLI. 2018/12/23</i></span>
+		</div>
+		<!-- footer end -->
 	</div>
 	<!-- main end -->
 
 
-	<!-- footer begin -->
-	<!-- footer end -->
 	</div>
 
 	<script src="lib/jquery.js"></script>
