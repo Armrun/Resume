@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-23 18:40:50
+ * @version $Id$
+ */
+		body {
+			background-color: #738064;
+
+		}
+		.all {
+			box-shadow: 0px 0px 10px #222;
+		    padding: 5px;
+		    border-radius: 5px;
+		    margin-bottom: 5px;
+		    background-color: #fff;
+		    min-width: 768px;
+
+		}
+		.bar {
+			background: #515151;
+			padding: 14px 14px;
+			border-radius: 1px;
+			background-color: #222222;
+		}
+		.nameplace {
+			color: #fff;
+			width: 300px;
+			margin-left: auto;
+			text-align: right;
+			padding-bottom: 8px; 
+		}
+		.myname {
+			margin: 20px 15px;
+			font-size: 60px;
+			font-weight: lighter;
+		}
+		.myjob {
+			margin-right: 24px;
+			font-weight: lighter;
+			margin-bottom: 10px; 
+			font-size: 1.2em; 
+		}
+		.information .glyphicon {
+			color: #000000;
+
+		}
+		.information {
+			float: left;
+		    margin-top: 12px;
+		    margin-left: 35px;
+		    width: 200px;
+		    color: #fff;
+		    background-color: #515151;
+		    padding: 4px;
+		    border-radius: 0px 0 59px 0;
+		}
+		.githubicon {
+			display: inline-block;
+		    width: 16px;
+		    height: 16px;
+		    background: url(../img/github.png) no-repeat;
+		    background-size: 96%;
+	        margin-right: -2px;
+		    margin-top: 2px;
+		}
+		#githerf {
+			display: inline-block;
+		    position: relative;
+		    margin-left: 4px;
+		    top: -2px;
+		}
+		.page-header h1 {
+			font-size: 220%;
+		}
+		h3 {
+			font-size: 158%;
+		}
+		.main-des h4 {
+			margin-left: 20px;
+			line-height: 136%;
+		}
+		.main-des .label {
+			/* background-color: #337ab7; */
+			color: black;
+		    font-size: 14px;
+		}
+		#id-img-R {
+			width: 148px;
+		}
+		#id-img-R {
+			float: right;
+		    margin: 93px -5px;
+		}
+		.link {
+			text-align: right;
+		}
+		#id-span-footer {
+			float: left;
+			margin-left: 22px;
+		    color: #222222;
+		    margin-top: -9px;
+		}
