@@ -46,13 +46,13 @@
       <h3><span class="glyphicon glyphicon-align-left"></span>南天信息 (2019.03-2019.06) </h3>
       <h3><span class="label label-primary">Web前端开发</span></h3>
       <div class="main-des">
-       <h4><span class="glyphicon glyphicon-expand"></span>入职两个月，能<span class="label label-info">独立承担</span>项目组分配业务流程功能和页面，并负责解决提测缺陷，并参与智能柜台敏捷开发平台<span class="label label-info">RDP</span>新版本的页面组件开发</h4>
+       <h4><span class="glyphicon glyphicon-expand"></span>入职两个月，能<span class="label label-info">独立承担</span>项目组分配业务流程功能和页面，并负责解决提测缺陷，并参与智能柜台新版本敏捷开发平台的页面组件开发</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>负责的组件开发部分，根据二次开发同事的反馈不断<span class="label label-info">迭代</span>组件的使用，加强复用性和<span class="label label-info">JSON 接口</span>易用性。帮助项目现场业务页面的二次开发时间减少了<span class="label label-info">50%</span>的时间</h4>
        <!-- <hr> -->
        <br />
        <h4>跨平台智能柜台项目</h4>
-       <h4><span class="glyphicon glyphicon-expand"></span>独立承担业务<span class="label label-info">公共子流程</span>开发，减少项目开发重复工作量,维护子流程使用文档</h4>
-       <h4><span class="glyphicon glyphicon-expand"></span>协调核心调优接口规范，去除报文冗余数据，提高交易调配效率</h4>
+       <h4><span class="glyphicon glyphicon-expand"></span>完成了<span class="label label-info">公共子流程 90%</span>的开发任务，减少项目开发重复工作量,维护子流程使用文档</h4>
+       <h4><span class="glyphicon glyphicon-expand"></span>协调核心调优接口规范，减少交易冗余数据，使一些报文的体积从10kb以上降到5kb，改善交易调配效率和网络IO时间</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>项目提测完成后获得<span class="label label-info">一等奖</span>项目奖励</h4>
 
    	</div>
@@ -74,10 +74,10 @@
       <div class="main-des">
        <h4><span class="glyphicon glyphicon-expand"></span>实现话题浏览和发表，评论回复，用户主页，个人信息维护功能</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>其中私信、@提醒、密码找回功能，使用了基于<span class="label label-info">Celery</span>消息队列的邮件发送功能进行实现</h4>
-       <h4><span class="glyphicon glyphicon-expand"></span>通过<span class="label label-info">多 Worker</span>和<span class="label label-info">Gevent</span>模式的<span class="label label-info">Gunicorn</span>实现程序的负载均衡运行，并使用<span class="label label-info">Supervisor</span>进行进程管理</h4>
+       <h4><span class="glyphicon glyphicon-expand"></span>通过配置<span class="label label-info">多 worker</span>和<span class="label label-info">gevent</span>协程的<span class="label label-info">Gunicorn</span>实现程序的负载均衡运行，并使用<span class="label label-info">Supervisor</span>进行进程管理</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>使用<span class="label label-info">Redis</span>实现登录<span class="label label-info">Session</span>和页面<span class="label label-info">token</span>在多进程下的数据共享，和用于缓存计算耗时长的数据结果</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>使用 Jinja2 的<span class="label label-info">模板继承</span>功能复用通用页面元素</h4>
-       <h4><span class="glyphicon glyphicon-expand"></span>通过<span class="label label-info">MySQL</span>进行数据储存，使用<span class="label label-info">sqlalchemy</span>实现了 ORM，支持<span class="label label-info">JION</span>操作解决<span class="label label-info">N + 1</span>问题，支持<span class="label label-info">事务</span>功能</h4>
+       <h4><span class="glyphicon glyphicon-expand"></span>通过<span class="label label-info">MySQL</span>进行数据储存，使用<span class="label label-info">sqlalchemy</span>实现了 ORM，支持<span class="label label-info">JOIN</span>操作解决<span class="label label-info">N + 1</span>问题，支持<span class="label label-info">事务</span>功能</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>使用<span class="label label-info">Nginx</span>做反向代理，提高静态资源、用户文件的访问性能</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>支持对 <span class="label label-info">XSS</span>、<span class="label label-info">CSRF</span> 和<span class="label label-info">SQL 注入</span>等攻击的防御</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>编写<span class="label label-info">bash</span>自动部署脚本，实现在服务器的<span class="label label-info">一键部署</span></h4>
@@ -87,9 +87,10 @@
       <br>
       <h3><span class="glyphicon glyphicon-align-left"></span>基于 Express 的个人博客 <small><a href="http://www.skyroom.club"><button type="button" class="btn btn-primary btn-xs">访问 skyroom.club</button></a> <a href="https://github.com/Armrun/skyroom"><button type="button" class="btn btn-primary btn-xs">个人项目源代码</button></a></small></h3>
       <div class="main-des">
+
        <h4><span class="glyphicon glyphicon-expand"></span>支持博主在线添加博文，游客评论功能</h4>
        <h4><span class="glyphicon glyphicon-expand"></span>数据逻辑偏重前端处理，动态数据通过 Ajax 获取并在前端渲染 HTML 代码，后端设计了<span class="label label-info">Restful</span>数据接口</h4>
-       <h4><span class="glyphicon glyphicon-expand"></span>页面 UI 基于<span class="label label-info">Bootstrap</span>进行设计和布局，支持支持<span class="label label-info">响应式</span>布局，具备跨浏览器、跨设备兼容性。
+       <h4><span class="glyphicon glyphicon-expand"></span>页面 UI 基于<span class="label label-info">Bootstrap</span>进行设计和布局，支持支持<span class="label label-info">响应式</span>布局，具备跨浏览器、跨设备兼容性
        <!-- <div><img src="img/blog1.png" style="height: 169px;" alt="" />
        </div> -->
       </div>
@@ -109,9 +110,7 @@
      <h3>昆明理工大学 <span class="label label-info">电气工程及其自动化专业(本科)</span></h3>
      <div class="main-des">
       <h4>2015 ~ 2016 学年度 <span class="label label-info">校二等奖学金</span></h4>
-      <h4>毕业设计 <span class="label label-info">电力系统铁磁谐振的计算机建模与仿真</span></h4>
       <h4>英语水平 <span class="label label-info">CET 6</span></h4>
-      <h4>全国计算机等级考试 <span class="label label-info">C语言程序设计 二级</span></h4>
      </div>
      <div class="row link">
       <h3 style='margin-top: 81px;'><i>相关链接</i> <span class="glyphicon glyphicon-globe"></span></h3>
@@ -144,12 +143,12 @@
        <h4><span class="glyphicon glyphicon-star"></span>理解 Socket 的收发数据原理，实现过基于 Socket 的 Web Server</h4>
        <h4><span class="glyphicon glyphicon-star"></span>熟悉网络编程，深入理解 HTTP 协议在前后端的数据交互原理</h4>
        <h4><span class="glyphicon glyphicon-star"></span>理解 Web 框架原理，自行实现过具备 HTTP 请求解析，路由分发，组装不同响应等功能的 Web 框架</h4>
-       <h4><span class="glyphicon glyphicon-star"></span>实现过基于 MySQL 的 ORM，支持 JION 解决 n + 1 问题、支持事务功能</h4>
+       <h4><span class="glyphicon glyphicon-star"></span>实现过基于 MySQL 的 ORM，支持 JOIN 解决 n + 1 问题、支持事务功能</h4>
       </div>
       <br>
       <div class="main-des">
       <h4><span class="glyphicon glyphicon-star"></span>理解 Cookie、Session 实现登陆功能的工作原理</h4>
-      <h4><span class="glyphicon glyphicon-star"></span>理解爬虫原理，能利用 Cookie 实现模拟登陆，使用爬虫数据缓存提供爬虫效率；掌握无头浏览器技术，实现动态内容</h4>
+      <h4><span class="glyphicon glyphicon-star"></span>理解爬虫原理，能利用 Cookie 实现模拟登陆，使用爬虫数据缓存提供爬虫效率；掌握无头浏览器技术，实现动态内容获取</h4>
       <h4><span class="glyphicon glyphicon-star"></span>熟悉 Websocket 协议，实现过基于 Websocket 的在线聊天室</h4>
       <h4><span class="glyphicon glyphicon-star"></span>能够使用 ab 测试和 Profile 协助访问性能调优</h4>
       </div>
@@ -157,7 +156,7 @@
       <div class="main-des">
        <h4><span class="glyphicon glyphicon-star"></span>熟悉 Python 编程，了解类的继承、类方法、静态方法、装饰器、单例的使用</h4>
        <h4><span class="glyphicon glyphicon-star"></span>熟练掌握 Flask Web 开发，掌握 Flask 中 Jinja2 模板渲染、蓝图注册等功能的使用</h4>
-       <h4><span class="glyphicon glyphicon-star"></span>能够使用 Gunicorn 多 Worker 负载均衡，gevent 协程提高性能</h4>
+       <h4><span class="glyphicon glyphicon-star"></span>熟练使用 Gunicorn ，能够通过设置多 worker 和 gevent 协程实现负载均衡</h4>
        <h4><span class="glyphicon glyphicon-star"></span>能配置 Supervisor 对 Gunicorn 进行进程守护</h4>
        <!-- <h4><span class="glyphicon glyphicon-star"></span>在项目中使用过 pymysql/flask_sqlalchemy/flask_mail/marrow.mailer/celery 等</h4> -->
       </div>
@@ -165,8 +164,6 @@
       <div class="main-des">
        <h4><span class="glyphicon glyphicon-star"></span>熟悉 Nodejs 编程，使用 Express 框架开发过个人博客、设计 RESTful 接口</h4>
        <h4><span class="glyphicon glyphicon-star"></span>能够使用 PM2 管理 Nodejs Web 进程</h4>
-       <h4><span class="glyphicon glyphicon-star"></span>能够使用 Gunicorn 多 Worker 负载均衡，gevent 协程提高性能</h4>
-       <h4><span class="glyphicon glyphicon-star"></span>能配置 Supervisor 对 Gunicorn 进行进程守护</h4>
       </div>
 
       <h3>其他</h3>

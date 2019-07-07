@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /**
- * 
+ *
  * @authors Your Name (you@example.org)
  * @date    2018-12-23 18:40:50
  * @version $Id$
  */
 		body {
-			background-color: #738064;
+			/*background-color: #738064;*/
 
 		}
 		.all {
@@ -29,7 +29,7 @@
 			width: 300px;
 			margin-left: auto;
 			text-align: right;
-			padding-bottom: 8px; 
+			padding-bottom: 8px;
 		}
 		.myname {
 			margin: 20px 15px;
@@ -39,8 +39,8 @@
 		.myjob {
 			margin-right: 24px;
 			font-weight: lighter;
-			margin-bottom: 10px; 
-			font-size: 1.2em; 
+			margin-bottom: 10px;
+			font-size: 1.2em;
 		}
 		.information .glyphicon {
 			color: #000000;
@@ -84,7 +84,9 @@
 		.main-des .label {
 			/* background-color: #337ab7; */
 			color: black;
-		    font-size: 14px;
+		    font-size: 17px;
+			padding: 0.5px .2em 0.5px;
+			margin: 0px 1.5px;
 		}
 		#id-img-R {
 			width: 148px;
